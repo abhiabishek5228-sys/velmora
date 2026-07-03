@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "707154603785",
+    "project_id": "mainpro-5689b",
+    "storage_bucket": "mainpro-5689b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707154603785:android:f496ab251a9d3b6b2d6dd8",
+        "android_client_info": {
+          "package_name": "com.example.baby_care_main"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgnog-m8hKOD8ShscCwj8qFpv-2vemCuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707154603785:android:c6941de74f8ca2e82d6dd8",
+        "android_client_info": {
+          "package_name": "com.example.velmora_apk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgnog-m8hKOD8ShscCwj8qFpv-2vemCuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
