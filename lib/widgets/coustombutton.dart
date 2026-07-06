@@ -10,13 +10,13 @@ class Coustombutton extends StatelessWidget {
     return GestureDetector(
       onTap: onPressed,
       child: Container(
-        height: 80,
+        height: 50,
         width: 250,
         decoration: BoxDecoration(
-          color: Colors.pink[200],
+          color: Colors.pinkAccent,
           borderRadius: BorderRadius.circular(20),
         ),
-        child: Center(child: Text(text)),
+        child: Center(child: Text(text,style: TextStyle(color: Colors.white,fontSize: 17),)),
       ),
     );
   }

@@ -14,7 +14,7 @@ class MyWidget extends StatelessWidget {
     required this.labeltext,
     this.validator,
     required this.prefixicon,
-    required this.suffixIcon,
+   this.suffixIcon,
   });
 
   @override
@@ -26,8 +26,9 @@ class MyWidget extends StatelessWidget {
       decoration: InputDecoration(
         prefixIcon: prefixicon,
         suffixIcon: suffixIcon,
+      
 
-        enabledBorder: OutlineInputBorder(
+        border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(15),
         ),
         labelText: labeltext,
@@ -35,4 +36,3 @@ class MyWidget extends StatelessWidget {
     );
   }
 }
-// 
